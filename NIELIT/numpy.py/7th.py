@@ -1,0 +1,13 @@
+import numpy as np
+x=np.random.rand()
+print(x)
+x=np.random.randint(100)
+print(x)
+x=np.random.choice([1,2,3,4,5])
+print(x)
+x=np.random.randint(100,size=(2,3))
+print(x)
+x=np.random.rand(2,3)
+print(x)
+x=np.random.choice([1,2,3,4,5],size=(2,3))
+print(x)

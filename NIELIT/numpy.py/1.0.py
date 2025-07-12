@@ -1,0 +1,11 @@
+import numpy as np
+A1=np.array([1,2,3,4,5])
+A2=np.array([[1,2,3],[4,5,6]])
+A3=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(np.max(A1))
+print(np.max(A2))
+print(np.max(A2,0))
+print(np.max(A2,1))
+print(np.max(A3))
+print(np.max(A3,0))
+print(np.max(A3,1))
